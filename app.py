@@ -127,11 +127,12 @@ def build_dashboard(symbol=SYMBOL):
         f"<div class='block'>{to_html(fig_vol, include_plotlyjs=False, full_html=False)}</div>",
         f"<div class='block'>{to_html(fig_rv, include_plotlyjs=False, full_html=False)}</div>",
         f"<div class='block'>{to_html(fig_ob, include_plotlyjs=False, full_html=False)}</div>",
-        "<p style='font-size:12px;opacity:.7'>data from binance public rest api; just for fun.</p>"
+        "<p style='font-size:12px;opacity:.7'>data from binance public rest api</p>"
     ]
 
     html = (
-        "<!DOCTYPE html><html lang='en'><head>"
+        "<title>crypto liquidity dashboard</title>"
+"<!DOCTYPE html><html lang='en'><head>"
         "<meta charset='utf-8'><meta http-equiv='Content-Language' content='en'>"
         "<meta name='viewport' content='width=device-width,initial-scale=1'>"
         "<link href='https://fonts.cdnfonts.com/css/aptos' rel='stylesheet'>"
