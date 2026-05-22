@@ -1,5 +1,5 @@
 # crypto visual  
-this is a visual dashboard of short term BTC/USDT liquidity/market dynamics and volatility using candlesticks, volume, realised volatility and order-book depth
+visual dashboard of short term BTC/USDT liquidity/market dynamics and volatility using candlesticks, volume, realised volatility and order-book depth
 
 ## demo
 
